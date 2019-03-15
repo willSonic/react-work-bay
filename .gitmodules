@@ -1,0 +1,6 @@
+[submodule "ws-node-demo"]
+	path = ws-node-demo
+	url = git@github.com-WILLSONIC:willSonic/ws-node-demo.git
+[submodule "ws-react-dev"]
+	path = ws-react-dev
+	url = git@github.com-WILLSONIC:willSonic/ws-react-dev.git
