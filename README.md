@@ -1,2 +1,2 @@
 # react-work-bay
-MERN dev environment
+WIP: building a MongoDB, Express, React, Node

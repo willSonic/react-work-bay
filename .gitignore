@@ -62,3 +62,7 @@ typings/
 
 # webstorm
 .idea/
+
+
+#mongod-data
+mongo-data/.
