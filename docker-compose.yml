@@ -28,8 +28,18 @@ services:
     ports:
     - "27017:27017"
 
- #ws-react-dev:
-     #restart: always
-    # build:
-       #context: ./ws-node-demo
-      # dockerfile: ./Dockerfile.dev
+  ws-react-dev:
+    restart: always
+    container_name: ws-react-dev-container
+    build:
+      context: ./ws-react-dev
+      dockerfile: ./Dockerfile.dev
+    image: local/ws-react-dev-image
+    command: ["npm", "run", "dockerDev"]
+    volumes:
+      - ./ws-react-dev/config:/usr/src/app/config
+      - ./ws-react-dev/src:/usr/src/app/src
+      - ./ws-react-dev/public:/usr/src/app/public
+      - ./ws-react-dev/webpack.config.js:/usr/src/app/webpack.config.js
+    ports:
+      - '3000:3000'
