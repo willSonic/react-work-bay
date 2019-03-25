@@ -16,7 +16,7 @@ services:
         - "mongo:mongo"
     working_dir: "/usr/src/app"
     volumes:
-        - "./.:/usr/src/app"
+        - ./ws-node-demo/.:/usr/src/app
         - "/usr/src/app/node_modules"
     ports:
         - "8080:8080"
