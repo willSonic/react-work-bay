@@ -1,0 +1,66 @@
+-Book Repository UX
+
+  - User Can search for Books
+	- Logged in User Can add a Book if some one else has not checked it out.
+	- User can register ->  create a profile
+	- User can  Login
+	- User can veiw dashboard of other users and when their books are due
+	- user can write reviews on books.
+	- User can add starts to book reviews.
+	- User can like books
+	- User can Search for all books using goolge api
+	- User can search for book by user ratings.
+	- User can veiw all current users of the system.
+	
+  Page Views
+	 -/ home 
+	 -/ dashbord
+	    -overdue books,
+			-books in your queue.
+			-Your comments
+			-Your ratings 
+	 -/ profiles
+	    -/ user profiles.
+	 -/ book view
+	 
+	
+	
+
+
+-Book Repository Design
+  - Implement Material Theme 
+	- Mobile 
+	
+	
+	
+-Book API
+   -Authentication ( 
+	   login 
+		 register
+	   Session
+	 -Profile Update
+	 -Checkout/Checkin Book
+	 -Notification 
+	   - add book is checked out
+		 - add to list of books you would like to checkout
+		 - list of user waiting for a book
+		 - add that you w
+	 -Add Image
+	 -Add comment on book
+	 -Add comment to comment
+	 -Add ratings to book
+	 -Search Books  by ratings
+	 -Search By Title
+	 -Search By Author
+	 
+	 
+	 
+	 
+
+
+-Book Data Model
+  - Authenticaion
+	- User
+	- Book
+	- File image writer
+	
