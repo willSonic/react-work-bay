@@ -31,11 +31,11 @@ createdAt: type(Date)
 modifiedAt: type(Date)
     default Date.now 
 
-Book_Image
-id: type(string) 
-	  unique key 
-smallThumbnail: type(string)
-thumbNamil: type(string)
+# Book_Image
+# id: type(string)
+# 	  unique key
+# smallThumbnail: type(string)
+# thumbNamil: type(string)
 
 Inventory
 id: type(string) 
@@ -53,11 +53,11 @@ modifiedAt: type(Date)
    default Date.now 
 
 
-Inventory_wait_list{
-id: type(string) 
-	     unique key 
-userId: type(string) 
-dateAdded: type(date)
+# Inventory_wait_list{
+# id: type(string)
+# 	     unique key
+# userId: type(string)
+# dateAdded: type(date)
 
 Comment
 id: type(string) 
