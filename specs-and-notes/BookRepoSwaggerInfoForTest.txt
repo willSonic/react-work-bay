@@ -1,0 +1,50 @@
+Book Create Swagger test
+{
+  "googleId": "ZHLNCgAAQBAJ",
+  "authors": ["Mike Goldsmith"],
+  "averageRating": 0,
+  "description": "Sound is integral to how we experience the world, in the form of noise as well as music. But what is sound? What is the physical basis of pitch and harmony? And how are sound waves exploited in musical instruments? In this Very Short Introduction Mike Goldsmith looks at the science of sound and explores sound in different contexts, covering the audible and inaudible, sound underground and underwater, accoustic and electric, and hearing in humans and animals. He also considers the problem of sound out of place - noise and its reduction. ABOUT THE SERIES: The Very Short Introductions series from Oxford University Press contains hundreds of titles in almost every subject area. These pocket-sized books are the perfect way to get ahead in a new subject quickly. Our expert authors combine facts, analysis, perspective, new ideas, and enthusiasm to make interesting and challenging topics highly readable.",
+  "imageLinks":{
+			"smallThumbnail": "http://books.google.com/books/content?id=ZHLNCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+			"thumbnail": "http://books.google.com/books/content?id=ZHLNCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+	},
+  "pageCount": 144,
+  "subtitle": "A Very Short Introduction",
+  "title": "Sound",
+  "categories":["Science"],
+  "ratingsCount": 0,
+  "publishedDate": "2015-11-23",
+  "publisher": "Oxford University Press"
+}
+
+just token string  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1Y2E1NWFhYTc5NmUwYjAxM2VmM2UyNWUiLCJpYXQiOjE1NTQzNDA1MjIsImV4cCI6MTU1NDM0NDEyMn0.q50PDOUFyh_WUrjzHcY_o1eT32J9ETyS-ebNp9wruOc
+
+Book Create Response
+{
+  "_bookModel": {
+    "authors": [
+      "Mike Goldsmith"
+    ],
+    "categories": [
+      "Science"
+    ],
+    "_id": "5ca55d7b796e0b013ef3e25f",
+    "googleId": "ZHLNCgAAQBAJ",
+    "averageRating": 0,
+    "description": "Sound is integral to how we experience the world, in the form of noise as well as music. But what is sound? What is the physical basis of pitch and harmony? And how are sound waves exploited in musical instruments? In this Very Short Introduction Mike Goldsmith looks at the science of sound and explores sound in different contexts, covering the audible and inaudible, sound underground and underwater, accoustic and electric, and hearing in humans and animals. He also considers the problem of sound out of place - noise and its reduction. ABOUT THE SERIES: The Very Short Introductions series from Oxford University Press contains hundreds of titles in almost every subject area. These pocket-sized books are the perfect way to get ahead in a new subject quickly. Our expert authors combine facts, analysis, perspective, new ideas, and enthusiasm to make interesting and challenging topics highly readable.",
+    "imageLinks": {
+      "_id": "5ca55d7b796e0b013ef3e260",
+      "smallThumbnail": "http://books.google.com/books/content?id=ZHLNCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+      "thumbnail": "http://books.google.com/books/content?id=ZHLNCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "pageCount": 144,
+    "subtitle": "A Very Short Introduction",
+    "title": "Sound",
+    "ratingsCount": 0,
+    "publishedDate": "2015-11-23T00:00:00.000Z",
+    "publisher": "Oxford University Press",
+    "createdAt": "2019-04-04T01:27:23.439Z",
+    "modifiedAt": "2019-04-04T01:27:23.444Z",
+    "__v": 0
+  }
+}
