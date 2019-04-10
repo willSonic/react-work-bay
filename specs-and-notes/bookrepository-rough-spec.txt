@@ -4,24 +4,50 @@
 	- Logged in User Can add a Book if some one else has not checked it out.
 	- User can register ->  create a profile
 	- User can  Login
-	- User can view dashboard of other users and when their books are due
 	- user can write reviews on books.
-	- User can add starts to book reviews.
-	- User can like books
+	- User can add stars to book reviews.
+	- User can  add stars books
 	- User can Search for all books using google api
 	- User can Search for book by user ratings.
 	- User can view all current users of the system.
 
   Page Views
-	 -/ home
-	 -/ dashbord
-	    -overdue books,
-			-books in your queue.
-			-Your comments
-			-Your ratings
-	 -/ profiles
-	    -/ user profiles.
-	 -/ book view
+	 -/ (home)
+		 Navigation ( dashboard, search, login)
+		 List of Trending tens
+		 Best Book Reviews from Users
+
+	 -/dashboard
+		-/book-bin
+			-User's current books and status
+			-User's book checkout history
+		-/wait-list
+			-Books currently in user's wait-list queue
+		-/messages
+			-User's overdue books
+			-User's swap requests
+			-User's swap responses
+			-Books added to user's bin
+			-Books removed from user's bin
+
+	-/ profile
+		-User's settings
+		comments/-User's comments/ratings
+
+	-/search
+		-search ahead for other Tabs ( title or author, subject)
+			( switch button  between title and author) - default title
+			( menu item list of possible categories
+		-search results displayed of each book with ability to click on list
+		-continue searching through pages using established parameters
+
+
+	-/book
+		-Full information of book with
+		-Reviews of book
+		-Carousel of other books by author
+		-Carousel of others books related to subject
+
 
 
 

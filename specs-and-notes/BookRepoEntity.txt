@@ -1,74 +1,121 @@
 User
-id: type(string) unique key 
-username: type(string) uinque index 
-lastname: type(string)  
-firstname: type(string)
-email: type(string) 
+id: type(string) unique key
+username: type(string) unique index
+lastName: type(string)
+firstName: type(string)
+email: type(string)
 admin: type(boolean) default false
 isLoggedIn: type(boolean) default true
 createdAt: type(Date) default Date.now
-modifiedAt: type(Date) default Date.now 
+modifiedAt: type(Date) default Date.now
 
+
+Profile:
+id: type(string) unique key
+userRef: type(string) unique index
+checkedOutCount:type(number)
+waitListCount:type(number)
+messageRefs:[ array of Ids]
+commentRefs:[ array of Ids]
+interestCategories:[ list of book categories, checked out)
+createdAt: Date,
+modifiedAt: Date
+
+
+enum{
+   Message{
+      type{
+          bookAdded
+          bookSoonRemoved
+          bookRemoved
+          swapRequest
+          swapResponse
+       }
+       text{
+              bookAdded
+              bookSoonRemoved
+              bookRemoved
+              swapRequest
+              swapResponse
+       }
+   }
+}
+
+
+Message
+id: type(string)
+	  unique key
+userRef: type(string) unique index
+type: enum.message.type
+text: enum.message.text
+review: date,
 
 
 Book
-id: type(string) 
-	  unique key 
+id: type(string)
+	  unique key
+googleId: type(string)
 authors: Array ( of strings),
-averageRating: type( Number ) , 
+averageRating: type( Number ) ,
      min 0 max 5
 description: type( String ) ,
 imageLinks: Object,
+    # smallThumbnail: type(string)
+    # thumbNamil: type(string)
 pageCount: type( Number ) ,
 subtitle: type( String ) ,
 title: type( String ) ,
 categories: Array (of strings),
 ratingsCount: type( Number) ,
 publishedDate:type( Date ),
-publisher: type( String ) 
-createdAt: type(Date) 
+publisher: type( String )
+createdAt: type(Date)
     default tDate.now
 modifiedAt: type(Date)
-    default Date.now 
-
-# Book_Image
-# id: type(string)
-# 	  unique key
-# smallThumbnail: type(string)
-# thumbNamil: type(string)
+    default Date.now
 
 Inventory
-id: type(string) 
-	  unique key 
-bookId: type(string) 
-   unique index 
-availStatus: type(Boolean) 
+id: type(string)
+	  unique key
+bookRef: type(string)
+   unique index
+currentUserRef: type(string)
+   unique index
+available: type(Boolean)
     default true
 checkOutDate: type(date)
 returnDate: type(date)
 waitList: Array ( wait_list)
-createdAt: type(Date) 
+createdAt: type(Date)
     default Date.now
-modifiedAt: type(Date) 
-   default Date.now 
+modifiedAt: type(Date)
+   default Date.now
 
 
-# Inventory_wait_list{
-# id: type(string)
-# 	     unique key
-# userId: type(string)
-# dateAdded: type(date)
 
 Comment
-id: type(string) 
-	  unique key 
-slug: 
-bookId: type(string) 
-userId: type(string) 
-text: type(string) 
-createdAt: type(Date) 
+id: type(string)
+	  unique key
+bookRef: type(string)
+	  unique key
+userRef: type(string)
+	  unique key
+text: type(string)
+createdAt: type(Date)
     default Date.now
-modifiedAt: type(Date) 
-     default Date.now 
+modifiedAt: type(Date)
+     default Date.now
 
 
+
+//Socket notifications Defined.. Alerts sent based on user Logged status
+	Book will Be Removed ( if user is logged in )-->
+	Book has Been Added ( if user is logged in )-->
+	 Swap Requested
+	    -- A book that you are interested in is up for swap
+			-- You have recieved request because you are on a waitlist for a book that user
+			   requesting swap desires.
+	 Swap Response
+	   --  Swap action is no longer valid because time for request has expired
+		 --  Swap action has occurred
+}

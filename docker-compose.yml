@@ -14,6 +14,7 @@ services:
         - loglevel=none
     links:
         - "mongo:mongo"
+        - "redis:redis"
     working_dir: "/usr/src/app"
     volumes:
         - ./ws-node-book-bend/.:/usr/src/app
@@ -21,12 +22,23 @@ services:
     ports:
         - "8080:8080"
         - "5858:5858"
+
   mongo:
     image: mongo:3.4
     volumes:
-    - ./mongo-data:/data/db
+        - ./db-data/mongo-data:/data/db
     ports:
-    - "27017:27017"
+        - "27017:27017"
+
+  redis:
+    image: "bitnami/redis:5.0"
+    container_name: "tokenholder"
+    environment:
+        - ALLOW_EMPTY_PASSWORD=yes
+    ports:
+        - "6379:6379"
+    volumes:
+        - ./db-data/redis-data:/bitnami/redis/data
 
   ws-react-dev:
     restart: always

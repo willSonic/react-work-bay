@@ -1,0 +1,34 @@
+User Capacity ( how many books has user checked out)
+   - since session is temperal can not rely on it
+	 
+Profile ( contains generic user info plus aditional info necessary to current development effort),
+   - userRef.
+   - container Book Checkout Capacity
+	 - Perhaps image
+	 - Messages ( ids)
+	 - Comments ( ids )
+	 - User preferences ( user categories)
+	 
+
+
+Messages{
+	 --type ( waitlist, book added, book removed, swap request, swap response)
+	 --text ( message body )
+	 --reviewed ( boolean)
+}
+
+
+//Socket is basicly update to user Profile 
+-- Immediate Alerts--(Is User Logged in / or user has desktop notification set up){
+   Book will Be Removed ( if user is logged in )--> 
+   Book has Been Added ( if user is logged in )--> 
+	 Swap Requested
+	    -- A book that you are interested in is up for swap
+			-- You have recieved request because you are on a waitlist for a book that user
+			   requesting swap desires.
+	 Swap Response 
+	   --  Swap action is no longer valid because time for request has expired
+		 --  Swap action has occurred
+}
+
+https://github.com/camesine/MS-AUTH-NODE-REDIS/blob/master/index.js
