@@ -13,8 +13,8 @@ services:
     environment:
         - loglevel=none
     links:
-        - "mongo:mongo"
-        - "redis:redis"
+        - mongodb-primary
+        - redis
     working_dir: "/usr/src/app"
     volumes:
         - ./ws-node-book-bend/.:/usr/src/app
@@ -23,12 +23,32 @@ services:
         - "8080:8080"
         - "5858:5858"
 
-  mongo:
-    image: mongo:3.4
+  mongodb-primary:
+    image: 'bitnami/mongodb:4.1'
+    environment:
+      - MONGODB_REPLICA_SET_MODE=primary
     volumes:
-        - ./db-data/mongo-data:/data/db
+        - mongodb_master_data:/data/db
     ports:
         - "27017:27017"
+
+  mongodb-secondary:
+    image: 'bitnami/mongodb:4.1'
+    depends_on:
+      - mongodb-primary
+    environment:
+      - MONGODB_REPLICA_SET_MODE=secondary
+      - MONGODB_PRIMARY_HOST=mongodb-primary
+      - MONGODB_PRIMARY_PORT_NUMBER=27017
+
+  mongodb-arbiter:
+    image: 'bitnami/mongodb:4.1'
+    depends_on:
+      - mongodb-primary
+    environment:
+      - MONGODB_REPLICA_SET_MODE=arbiter
+      - MONGODB_PRIMARY_HOST=mongodb-primary
+      - MONGODB_PRIMARY_PORT_NUMBER=27017
 
   redis:
     image: "bitnami/redis:5.0"
@@ -55,3 +75,7 @@ services:
       - ./ws-react-dev/webpack.config.js:/usr/src/app/webpack.config.js
     ports:
       - '3000:3000'
+
+volumes:
+  mongodb_master_data:
+    driver: local

@@ -17,6 +17,7 @@ checkedOutCount:type(number)
 waitListCount:type(number)
 messageRefs:[ array of Ids]
 commentRefs:[ array of Ids]
+checkOutRefs:[ array of bookRefs]
 interestCategories:[ list of book categories, checked out)
 createdAt: Date,
 modifiedAt: Date

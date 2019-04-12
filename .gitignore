@@ -66,6 +66,6 @@ typings/
 
 
 #mongod-data
-db-data/mongo-data/diagnostic.data/
+mongo_master_data/diagnostic.data/
 db-data/mongo-data/journal/
 db-data/redis-data/
