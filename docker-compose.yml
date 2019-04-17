@@ -2,14 +2,14 @@ version: '3'
 
 services:
 
-  ws-node-book-bend:
+  ws-node-book-bin:
     restart: always
     build:
       context: ./ws-node-book-bend
       dockerfile: ./Dockerfile.dev
-    image: local-ws-node-book-bend-dev:latest
+    image: local-ws-node-book-bin-dev:latest
     command: ['npm', 'run', 'start:dev']
-    container_name: ws-node-book-bend-container
+    container_name: ws-node-book-bin-container
     environment:
         - loglevel=none
     links:
