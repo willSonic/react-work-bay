@@ -1,0 +1,253 @@
+API To Fetch Google Books:
+https://www.googleapis.com/books/v1/volumes/
+
+  IN_TITLE: '?q=intitle+',
+  IN_AUTHOR: '?q=inauthor+',
+  SUBJECT: '?q=subject+',
+   '&maxResults=10
+
+https://www.googleapis.com/books/v1/volumes/?q=inauthor:Malcolm+Glad2ell=&maxResults=10
+start index for page
+https://www.googleapis.com/books/v1/volumes/?q=inSubject:HipHop&startIndex=11&maxResults=10
+//"The Story of Success"
+{
+  "googleId":"3NSImqqnxnkC",
+    "title": "Outliers",
+    "subtitle": "The Story of Success",
+    "authors": [ "Malcolm Gladwell"],
+    "publisher": "Little, Brown",
+    "publishedDate": "2008-11-18",
+    "description": "In this stunning new book, Malcolm Gladwell takes us on an intellectual journey through the world of \"outliers\"--the best and the brightest, the most famous and the most successful. He asks the question: what makes high-achievers different? His answer is that we pay too much attention to what successful people are like, and too little attention to where they are from: that is, their culture, their family, their generation, and the idiosyncratic experiences of their upbringing. Along the way he explains the secrets of software billionaires, what it takes to be a great soccer player, why Asians are good at math, and what made the Beatles the greatest rock band. Brilliant and entertaining, Outliers is a landmark work that will simultaneously delight and illuminate.",
+    "pageCount": 320,
+    "categories": ["Psychology"],
+    "averageRating": 4,
+    "ratingsCount": 82,
+    "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=3NSImqqnxnkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=3NSImqqnxnkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    }
+}
+
+
+//"The Power of Thinking Without Thinking"
+{
+  "googleId":"VKGbb1hg8JAC",
+    "title": "Blink",
+    "subtitle": "The Power of Thinking Without Thinking",
+    "authors": [ "Malcolm Gladwell"],
+    "publisher": "Back Bay Books",
+    "publishedDate": "2007-04-03",
+    "description": "In his landmark bestseller The Tipping Point, Malcolm Gladwell redefined how we understand the world around us. Now, in Blink, he revolutionizes the way we understand the world within. Blink is a book about how we think without thinking, about choices that seem to be made in an instant-in the blink of an eye-that actually aren't as simple as they seem. Why are some people brilliant decision makers, while others are consistently inept? Why do some people follow their instincts and win, while others end up stumbling into error? How do our brains really work-in the office, in the classroom, in the kitchen, and in the bedroom? And why are the best decisions often those that are impossible to explain to others?In Blink we meet the psychologist who has learned to predict whether a marriage will last, based on a few minutes of observing a couple; the tennis coach who knows when a player will double-fault before the racket even makes contact with the ball; the antiquities experts who recognize a fake at a glance. Here, too, are great failures of \"blink\": the election of Warren Harding; \"New Coke\"; and the shooting of Amadou Diallo by police. Blink reveals that great decision makers aren't those who process the most information or spend the most time deliberating, but those who have perfected the art of \"thin-slicing\"-filtering the very few factors that matter from an overwhelming number of variables.",
+    "pageCount": 320,
+    "categories": [ "Business & Economics"],
+    "averageRating": 3.5,
+    "ratingsCount": 3938,
+    "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=VKGbb1hg8JAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=VKGbb1hg8JAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    }
+}
+
+
+//tipping point
+{
+  "googleId":"yBDBEGBIUmgC",
+    "title": "The Tipping Point",
+    "subtitle": "How Little Things Can Make a Big Difference",
+    "authors": [ "Malcolm Gladwell"],
+    "publisher": "Little, Brown",
+    "publishedDate": "2006-11-01",
+    "description": "The tipping point is that magic moment when an idea, trend, or social behavior crosses a threshold, tips, and spreads like wildfire. Just as a single sick person can start an epidemic of the flu, so too can a small but precisely targeted push cause a fashion trend, the popularity of a new product, or a drop in the crime rate. This widely acclaimed bestseller, in which Malcolm Gladwell explores and brilliantly illuminates the tipping point phenomenon, is already changing the way people throughout the world think about selling products and disseminating ideas.",
+    "pageCount": 288,
+    "printType": "BOOK",
+    "categories": [ "Business & Economics"],
+    "averageRating": 3.5,
+    "ratingsCount": 4238,
+    "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=yBDBEGBIUmgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=yBDBEGBIUmgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    }
+}
+
+// What the dog Saw
+{
+  "googleId":"kqA73g52Q9EC",
+    "title": "What the Dog Saw",
+    "subtitle": "And Other Adventures",
+     "authors": [ "Malcolm Gladwell"],
+    "publisher": "Little, Brown",
+    "publishedDate": "2009-10-20",
+    "description": "What is the difference between choking and panicking? Why are there dozens of varieties of mustard-but only one variety of ketchup? What do football players teach us about how to hire teachers? What does hair dye tell us about the history of the 20th century? In the past decade, Malcolm Gladwell has written three books that have radically changed how we understand our world and ourselves: The Tipping Point; Blink; and Outliers. Now, in What the Dog Saw, he brings together, for the first time, the best of his writing from The New Yorker over the same period. Here is the bittersweet tale of the inventor of the birth control pill, and the dazzling inventions of the pasta sauce pioneer Howard Moscowitz. Gladwell sits with Ron Popeil, the king of the American kitchen, as he sells rotisserie ovens, and divines the secrets of Cesar Millan, the \"dog whisperer\" who can calm savage animals with the touch of his hand. He explores intelligence tests and ethnic profiling and \"hindsight bias\" and why it was that everyone in Silicon Valley once tripped over themselves to hire the same college graduate. \"Good writing,\" Gladwell says in his preface, \"does not succeed or fail on the strength of its ability to persuade. It succeeds or fails on the strength of its ability to engage you, to make you think, to give you a glimpse into someone else's head.\" What the Dog Saw is yet another example of the buoyant spirit and unflagging curiosity that have made Malcolm Gladwell our most brilliant investigator of the hidden extraordinary.",
+    "pageCount": 432,
+    "categories": [ "Psychology"],
+    "averageRating": 4,
+    "ratingsCount": 68,
+    "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=kqA73g52Q9EC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=kqA73g52Q9EC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    }
+}
+
+//Sound and the fury ( no Average Rating, PageCount, ratingsCount )
+{
+  "googleId":"_chqDwAAQBAJ",
+    "title": "The Sound and the Fury",
+    "authors": [ "William Faulkner"],
+    "publisher": "McClelland & Stewart",
+    "publishedDate": "2018-10-02",
+    "description": "The Sound and the Fury, first published in 1929, is perhaps William Faulkner’s greatest book. It was immediately praised for its innovative narrative technique, and comparisons were made with Joyce and Dostoyevsky, but it did not receive popular acclaim until the late forties, shortly before Faulkner received the Nobel Prize for Literature. The novel reveals the story of the disintegration of the Compson family, doomed inhabitants of Faulkner’s mythical Yoknapatawpha County, through the interior monologues of the idiot Benjy and his brothers, Quentin and Jason. Penguin Random House Canada is proud to bring you classic works of literature in e-book form, with the highest quality production values. Find more today and rediscover books you never knew you loved.",
+    "categories": [ "Fiction"],
+    "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=_chqDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=_chqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+     }
+},
+
+
+//Afro Hair( no Average Rating, PageCount, ratingsCount )
+{
+  "googleId":"B4kXAQAAMAAJ",
+    "title": "Afro Hair",
+    "subtitle": "A Salon Handbook",
+    "authors": [ "Phillip Hatton"],
+    "publisher": "Addison-Wesley Longman Limited",
+    "publishedDate": "1994-01-01",
+    "description": "A textbook written for hairdressers training under the National Preferred Scheme. Afro hair is more delicate and difficult to style than other hair types. Special techniques are required and these, along with the underlying theory, are explained with numer",
+    "pageCount": 232,
+    "categories": [ "House & Home"],
+    "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=B4kXAQAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=B4kXAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    }
+},
+
+//Comedy Reference
+{
+  "googleId":"MEExBAAAQBAJ",
+    "title": "The Smartest Book in the World",
+    "subtitle": "A Lexicon of Literacy, A Rancorous Reportage, A Concise Curriculum of Cool",
+    "authors": [ "Greg Proops"],
+    "publisher": "Simon and Schuster",
+    "publishedDate": "2015-05-05",
+    "description": "From the bold, beloved comic and podcast star Greg Proops comes a “terrifically random appreciation of cultural touchstones” (Publishers Weekly) that is electrifying, thought-provoking, and unrelenting, full of rapid-fire references, historical name-checking, Satchel Paige bon mots, and genuine wisdom. Greg Proops is an internationally renowned comedian, best known for starring on the hit improv-comedy show Whose Line Is It Anyway? and for his popular award-winning podcast, “The Smartest Man in the World,” which Rolling Stone called “some of the boldest comedy on the podcasting frontier right now.” But Proops is also a fountain of historical knowledge, a wealth of pop culture trivia, and a generally charming know-it-all. The Smartest Book in the World is a rollicking reference guide to the most essential areas of knowledge in Proops’s universe, from history’s juiciest tales and curious backstories to the movies you must see and the albums you must hear. Full of eclectic and humorous knowledge, it is a concentrated collection and comic cultural dictionary of the essential Proops topics including poetry, proper punctuation, and Satchel Paige, all delivered with his signature style, making the full Proops experience complete. So if you’re stuck wondering why Alexander was so Great (well, he did conquer the world), which cinema bombshell would be the best shortstop (Hedy Lamarr, of course), what great work of art would be the best to steal (not that you would), or the finest way to prepare vodka-flavored vodka (add vodka), don’t fret, pumpkin butter—The Smartest Book in the World has what you need right now.",
+    "pageCount": 320,
+    "categories": [ "Reference"],
+    "averageRating": 3.5,
+    "ratingsCount": 2,
+    "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=MEExBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=MEExBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    }
+},
+
+//"HIPHOP BEFORE THE BLING", ( no subtitle)
+{
+  "googleId":"y5tAvPcZz6oC",
+    "title": "HIPHOP BEFORE THE BLING",
+    "authors": [ "Darlene Lewis" ],
+    "publisher": "Lulu.com",
+    "publishedDate": "2008-07-25",
+    "description": "A pictorial and historical look at the legends of hiphop prior to the gangster and flashy bling and publicity stunts.",
+    "pageCount": 111,
+    "averageRating": 5,
+    "ratingsCount": 1,
+    "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=y5tAvPcZz6oC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=y5tAvPcZz6oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+     }
+},
+
+
+//"A Study of HipHop's Young Black Female Identities"
+{,
+
+//The Hip Hop Wars
+{
+  "googleId":"PuxOLsxrs-sC",
+    "title": "The Hip Hop Wars",
+    "subtitle": "What We Talk about when We Talk about Hip Hop--and why it Matters",
+    "authors": [ "Tricia Rose"],
+    "publisher": "Basic Books",
+    "publishedDate": "2008",
+    "description": "Argues that hip hop has become a primary way to talk about race in America, examining the links between hip hop, violence, and sexism and whether or not hip hop's portrayal of black culture undermines black advancement.",
+    "pageCount": 308,
+    "categories": [ "Music"],
+    "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=PuxOLsxrs-sC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=PuxOLsxrs-sC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    }
+},
+
+
+//Anthology or rap
+{
+  "googleId": "NZcNXLXGNJIC",
+    "title": "The Anthology of Rap",
+    "authors": [ "Adam Bradley", "DuBois, Andrew Lee DuBois" ],
+    "publisher": "Yale University Press",
+    "publishedDate": "2010",
+    "description": "From the school yards of the South Bronx to the tops of the Billboard charts, rap has emerged as one of the most influential musical and cultural forces of our time."
+    "pageCount": 867,
+    "printType": "BOOK",
+    "categories": [ "Rap (Music)" ],
+    "averageRating": 5,
+    "ratingsCount": 2,
+    "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=NZcNXLXGNJIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=NZcNXLXGNJIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    }
+},
+
+
+
+
+
+
+
+{
+    "googleId": "xUMlDwAAQBAJ",
+    "title": "Breaking Bread",
+    "subtitle": "Insurgent Black Intellectual Life",
+    "authors": ["bell hooks","Cornel West"],
+    "publisher": "Taylor & Francis",
+    "publishedDate": "2016-11-10",
+    "description": "In this provocative and captivating dialogue, bell hooks and Cornel West come together to discuss the dilemmas, contradictions, and joys of Black intellectual life. The two friends and comrades in struggle talk, argue, and disagree about everything from community to capitalism in a series of intimate conversations that range from playful to probing to revelatory. In evoking the act of breaking bread, the book calls upon the various traditions of sharing that take place in domestic, secular, and sacred life where people come together to give themselves, to nurture life, to renew their spirits, sustain their hopes, and to make a lived politics of revolutionary struggle an ongoing practice. This 25th anniversary edition continues the dialogue with \"In Solidarity,\" their 2016 conversation at the bell hooks Institute on racism, politics, popular culture and the contemporary Black experience.",
+    "pageCount": 246,
+    "averageRating": 5,
+    "ratingsCount": 1,
+    "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=xUMlDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=xUMlDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    }
+}
+{
+    "googleId": "YhdU8thA6eEC",
+    "title": "The Godfather Effect",
+    "subtitle": "Changing Hollywood, America, and Me",
+    "authors": ["Tom Santopietro"],
+    "publisher": "Macmillan",
+    "publishedDate": "2012-01-31",
+    "description": "A brilliant examination of our forty year obsession with the classic film trilogy—and a personal reflection on what it means to be Italian-American Forty years and one billion dollars in gross box office receipts after the initial release of The Godfather, Francis Ford Coppola's masterful trilogy continues to fascinate viewers old and new. The Godfather Effect skillfully analyzes the reasons behind this ongoing global phenomenon. Packed with behind-the-scenes anecdotes from all three Godfather films, Tom Santopietro explores the historical origins of the Mob and why they thrived in America, how Italian-Americans are portrayed in the media, and how a saga of murderous gangsters captivated audiences around the globe. Laced with stories about Brando, Pacino, and Sinatra, and interwoven with a funny and poignant memoir about the author's own experiences growing up with an Italian name in an Anglo world of private schools and country clubs, The Godfather Effect is a book for film lovers, observers of American life, and Italians of all nationalities.",
+    "pageCount": 336,
+    "categories": ["Performing Arts"],
+    "imageLinks": {
+      "smallThumbnail": "http://books.google.com/books/content?id=YhdU8thA6eEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+       "thumbnail": "http://books.google.com/books/content?id=YhdU8thA6eEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+     }
+}
+
+
+{
+    "googleId": "Xu9jDwAAQBAJ",
+    "title": "Performing Masculinity. A linguistic analysis of the performance of Gender ldentities in Kenyan Rap Music",
+    "authors": [ "Sarah Nakhone" ],
+    "publisher": "GRIN Verlag",
+    "publishedDate": "2018-07-12",
+    "description": "Thesis (M.A.) from the year 2013 in the subject English Language and Literature Studies - Linguistics, grade: B, Moi University (School of Arts and Social Sciences), course: M.A Linguistics, language: English, abstract: An analysis of the language of music provides many insights into the social and ideological underpinnings of a given culture. Generally, music has often been viewed as a vital site for the articulation and construction of different forms of identities including gender. Rap music has been implicated in constructing a hegemonic type of masculinity and portraying women in narrow ways. This study explored how masculinity is linguistically constructed in Kenyan rap music. The most relevant subjects were the male artists. However, the artists in some cases were shown to construct gendered identities for others (men and women). The aim of the study was to investigate how masculinity is represented, constructed and depicted in the lyrics of Kenyan rap music. The main objectives of the study were as follows: first, to describe how language is used to construct masculinity in Kenyan rap music and second, to find out whether the construction of masculinity in rap music is used to reinforce misogyny.The study was grounded in the theoretical framework of Critical Discourse Analysis, (here after known as CDA) following Fairclough (1989, 1992). This theory combines a method of linguistic textual analysis with a social theory of language in ideological processes.The research approach utilized a social linguistic constructionist perspective, employing a qualitative methodology. The sample size was twenty Kenyan rap songs texts. This sample was selected through purposive sampling. Data collection procedures included two main techniques namely, documentary sources and document analysis. The formal linguistic aspects of rap music texts were analysed using the pragmatic resources of denotation and connotation, presupposition and conversational implicatures. The analysis unravelled several discourses of masculinity. These were discourses of a covert prestige, heterosexuality, alcohol consumption, violence and aggression and lastly misogyny. The findings of the analysis discussed how rappers glamorise a hegemonic kind of masculinity and how women are portrayed in narrow and demeaning ways.",
+    "pageCount": 148,
+    "categories": [ "Literary Collections"],
+    "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=Xu9jDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=Xu9jDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    }
+}

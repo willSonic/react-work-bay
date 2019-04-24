@@ -1,0 +1,82 @@
+ curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
+>    "userName": "reggae",
+>    "password": "password"
+>  }' 'http://localhost:8080/api/Authorizations/Login'
+{
+   "account":{
+      "user":{
+         "id":"5cbf8c537161ce013dbaeb8c",
+         "userName":"reggae",
+         "firstName":"Breath",
+         "lastName":"Thorpe",
+         "email":"emma@pm.com"
+      },
+      "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1Y2JmOGM1MzcxNjFjZTAxM2RiYWViOGMiLCJpYXQiOjE1NTYwNjQ4NDMsImV4cCI6MTU1NjA5MzY0M30.TPfcZxXVlXe9o-yCx1oEDD0-ZWtIS3dlM9DgZ8twTi4"
+   }
+}
+
+curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1Y2JmOGM1MzcxNjFjZTAxM2RiYWViOGMiLCJpYXQiOjE1NTYwNjQ4NDMsImV4cCI6MTU1NjA5MzY0M30.TPfcZxXVlXe9o-yCx1oEDD0-ZWtIS3dlM9DgZ8twTi4' -d '
+{
+   "userId":"5cbf8c537161ce013dbaeb8c",
+   "book":{
+      "googleId":"NZcNXLXGNJIC",
+      "title":"The Anthology of Rap",
+      "authors":[
+         "Adam Bradley",
+         "DuBois, Andrew Lee DuBois"
+      ],
+      "publisher":"Yale University Press",
+      "publishedDate":"2010",
+      "description":"From the school yards of the South Bronx to the tops of the Billboard charts, rap has emerged as one of the most influential musical and cultural forces of our time. In "The Anthology of Rap," editors Adam Bradley and Andrew DuBois explore rap as a literary form, demonstrating that rap is also a wide-reaching and vital poetic tradition born of beats and rhymes. This pioneering anthology brings together more than three hundred rap and hip-hop lyrics written over thirty years, from the "old school" to the "golden age" to the present day. Rather than aim for encyclopedic coverage, Bradley and DuBois render through examples the richness and diversity of rap's poetic tradition. They feature both classic lyrics that helped define the genre, including Grandmaster Flash & the Furious Five's "The Message" and Eric B. & Rakim's "Microphone Fiend," as well as lesser-known gems like Blackalicious's "Alphabet Aerobics" and Jean Grae's "Hater's Anthem." Both a fan's guide and a resource for the uninitiated, "The Anthology of Rap" showcases the inventiveness and vitality of rap's lyrical art. The volume also features an overview of rap poetics and the forces that shaped each period in rap's historical development, as well as a foreword by Henry Louis Gates, Jr., and afterwords by Chuck D and Common. Enter the "Anthology" to experience the full range of rap's artistry and discover a rich poetic tradition hiding in plain sight.",
+      "pageCount":867,
+      "printType":"BOOK",
+      "categories":[
+         "Rap (Music)"
+      ],
+      "averageRating":5,
+      "ratingsCount":2,
+      "imageLinks":{
+         "smallThumbnail":"http://books.google.com/books/content?id=NZcNXLXGNJIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+         "thumbnail":"http://books.google.com/books/content?id=NZcNXLXGNJIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      }
+   }
+}
+' 'http://localhost:8080/api/Profiles/addBook'
+
+curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1Y2JmOGM1MzcxNjFjZTAxM2RiYWViOGMiLCJpYXQiOjE1NTYwNjczODksImV4cCI6MTU1NjA5NjE4OX0.MfV1I7NizRWN-Dw1kVhfkSpzgB-FeehH9ovRS_fTA4w' -d '
+{
+    "userId":"5cbe6f93ef9e2a013e084971",
+    "book":{
+        "googleId": "Xu9jDwAAQBAJ",
+        "title": "Performing Masculinity. A linguistic analysis of the performance of Gender ldentities in Kenyan Rap Music",
+        "authors": [ "Sarah Nakhone" ],
+        "publisher": "GRIN Verlag",
+        "publishedDate": "2018-07-12",
+        "description": "Thesis (M.A.) from the year 2013 in the subject English Language and Literature Studies - Linguistics, grade: B, Moi University (School of Arts and Social Sciences), course: M.A Linguistics, language: English, abstract: An analysis of the language of music provides many insights into the social and ideological underpinnings of a given culture. Generally, music has often been viewed as a vital site for the articulation and construction of different forms of identities including gender. Rap music has been implicated in constructing a hegemonic type of masculinity and portraying women in narrow ways. This study explored how masculinity is linguistically constructed in Kenyan rap music. The most relevant subjects were the male artists. However, the artists in some cases were shown to construct gendered identities for others (men and women). The aim of the study was to investigate how masculinity is represented, constructed and depicted in the lyrics of Kenyan rap music. The main objectives of the study were as follows: first, to describe how language is used to construct masculinity in Kenyan rap music and second, to find out whether the construction of masculinity in rap music is used to reinforce misogyny.The study was grounded in the theoretical framework of Critical Discourse Analysis, (here after known as CDA) following Fairclough (1989, 1992). This theory combines a method of linguistic textual analysis with a social theory of language in ideological processes.The research approach utilized a social linguistic constructionist perspective, employing a qualitative methodology. The sample size was twenty Kenyan rap songs texts. This sample was selected through purposive sampling. Data collection procedures included two main techniques namely, documentary sources and document analysis. The formal linguistic aspects of rap music texts were analysed using the pragmatic resources of denotation and connotation, presupposition and conversational implicatures. The analysis unravelled several discourses of masculinity. These were discourses of a covert prestige, heterosexuality, alcohol consumption, violence and aggression and lastly misogyny. The findings of the analysis discussed how rappers glamorise a hegemonic kind of masculinity and how women are portrayed in narrow and demeaning ways.",
+        "pageCount": 148,
+        "categories": [ "Literary Collections"],
+        "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=Xu9jDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=Xu9jDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        }
+    }
+}' 'http://localhost:8080/api/Profiles/addBook'
+
+
+curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1Y2JmOGM1MzcxNjFjZTAxM2RiYWViOGMiLCJpYXQiOjE1NTYwNjczODksImV4cCI6MTU1NjA5NjE4OX0.MfV1I7NizRWN-Dw1kVhfkSpzgB-FeehH9ovRS_fTA4w' -d '
+{
+    "userId":"5cbf8c537161ce013dbaeb8c",
+    "book":{
+        "googleId":"_chqDwAAQBAJ",
+        "title": "The Sound and the Fury",
+        "authors": [ "William Faulkner"],
+        "publisher": "McClelland & Stewart",
+        "publishedDate": "2018-10-02",
+        "description": "The Sound and the Fury, first published in 1929, is perhaps William Faulkner’s greatest book. It was immediately praised for its innovative narrative technique, and comparisons were made with Joyce and Dostoyevsky, but it did not receive popular acclaim until the late forties, shortly before Faulkner received the Nobel Prize for Literature. The novel reveals the story of the disintegration of the Compson family, doomed inhabitants of Faulkner’s mythical Yoknapatawpha County, through the interior monologues of the idiot Benjy and his brothers, Quentin and Jason. Penguin Random House Canada is proud to bring you classic works of literature in e-book form, with the highest quality production values. Find more today and rediscover books you never knew you loved.",
+        "categories": [ "Fiction"],
+        "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=_chqDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=_chqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+         }
+    }
+}' 'http://localhost:8080/api/Profiles/addBook'

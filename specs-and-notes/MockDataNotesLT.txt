@@ -1,0 +1,62 @@
+{
+  "userName": "moooz",
+  "firstName": "Samson",
+  "lastName": "Martin",
+  "password": "password",
+  "email": "mooz@pm.com"
+}
+id:   5cbe6f93ef9e2a013e084971
+token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1Y2JlNmY5M2VmOWUyYTAxM2UwODQ5NzEiLCJpYXQiOjE1NTYwNjE4ODksImV4cCI6MTU1NjA5MDY4OX0.mr9K2NC0P02zRTH-FQCGHvUq7ufzs_9FsKGjcHQVS34
+{
+  "userName": "reggae",
+  "firstName": "Breath",
+  "lastName": "Thorpe",
+  "password": "password",
+  "email": "emma@pm.com"
+}
+id:   5cbf8c537161ce013dbaeb8c
+token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1Y2JmOGM1MzcxNjFjZTAxM2RiYWViOGMiLCJpYXQiOjE1NTYwNTc1NTYsImV4cCI6MTU1NjA4NjM1Nn0.8XCffhiogkbvbOkjP7tYIkWGUp7pDmohaL37H2IZkNg
+{
+  "userName": "mayberry",
+  "firstName": "Andie",
+  "lastName": "Griffith",
+  "password": "password",
+  "email": "andie@pm.com"
+}
+id:   5cbf8c8f7161ce013dbaeb8d
+token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1Y2JmOGM4ZjcxNjFjZTAxM2RiYWViOGQiLCJpYXQiOjE1NTYwNTcyMzIsImV4cCI6MTU1NjA4NjAzMn0.naghrJ3gmrpaU5zFY5QvP1LwcuW8fBhMgaU6rSuWOyo
+{
+  "account": {
+    "user": {
+      "id": "5cbe49168fa4ec0171782559",
+      "userName": "moooz",
+      "firstName": "Samson",
+      "lastName": "Martin",
+      "email": "mooz@pm.com"
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1Y2JlNDkxNjhmYTRlYzAxNzE3ODI1NTkiLCJpYXQiOjE1NTU5NzQ0MjIsImV4cCI6MTU1NjAwMzIyMn0.kHXWhbK2aOA_Pfdqlcro374HoDFAQeGTStYL2UjP1ko"
+  }
+}
+token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1Y2JlNDkxNjhmYTRlYzAxNzE3ODI1NTkiLCJpYXQiOjE1NTU5NzQ0MjIsImV4cCI6MTU1NjAwMzIyMn0.kHXWhbK2aOA_Pfdqlcro374HoDFAQeGTStYL2UjP1ko
+
+userId  5cbe49168fa4ec0171782559
+
+Profile Create: 
+{
+  "user": "5cbe49168fa4ec0171782559"
+}
+
+Profile Id Get
+{
+ "id": "5cbe49868fa4ec017178255a",
+}
+Profile update
+{
+ "id": "5cbe4248de181c0146618b02",
+ "checkedOutCount" : 0,
+"booksOut":[],
+"messages":[]
+}
+
+
+
