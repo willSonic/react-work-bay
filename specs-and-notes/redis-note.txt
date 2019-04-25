@@ -1,0 +1,9 @@
+docker exec -it tokenholder redis-cli
+
+get all keys
+KEY *
+returns
+127.0.0.1:6379> KEYS *
+1) "5cbf8c537161ce013dbaeb8c"
+del key
+del 5cbf8c537161ce013dbaeb8c
